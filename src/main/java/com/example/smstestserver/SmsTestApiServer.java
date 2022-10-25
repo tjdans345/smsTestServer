@@ -38,7 +38,7 @@ public class SmsTestApiServer {
         params.put("to", phoneNumber); // 수신번호
 
 //       * 10월 16일 이후로 발신번호 사전등록제로 인해 등록된 발신번호로만 문자를 보내실 수 있습니다. 바로가기
-        params.put("from", "01086691007"); // 발신번호
+        params.put("from", "12345"); // 발신번호
         params.put("text", "데따 휴대폰인증 테스트 메시지 : 인증번호는" + "["+randomNumber+"]" + "입니다.");
         params.put("type", "sms"); // 문자 타입
 
